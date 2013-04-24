@@ -1,0 +1,119 @@
+/* Artfully masterminded by ZURB  */
+
+/* --------------------------------------------------
+   Table of Contents
+-----------------------------------------------------
+:: Shared Styles
+:: Page Name 1
+:: Page Name 2
+*/
+
+
+/* -----------------------------------------
+   Shared Styles
+----------------------------------------- */
+
+.align_center {
+    text-align: center;
+}
+
+.align_right {
+    text-align: right;
+}
+
+.valign_center {
+    vertical-align: middle;
+}
+
+.valign_top {
+    vertical-align: top;
+}
+
+.valign_bottom {
+    vertical-align: bottom;
+}
+
+th {
+    font: bold;
+}
+
+
+/* -----------------------------------------
+   body.order
+----------------------------------------- */
+
+body.order {
+    padding-top: 30px;
+    
+    background-color: white;
+}
+
+body.order table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+body.order table.details,
+body.order table.payments {
+    width: 600px;
+}
+
+body.order table.act_signature {
+    width: 650px;
+}
+
+body.order tr,
+body.order th,
+body.order td {
+    border: 1px solid black;
+    
+    font-size: 13px;
+    font-family: sans-serif;
+    
+    background-color: white;
+}
+
+body.order table.payments th.num,
+body.order table.payments th.price,
+body.order table.payments th.cost {
+    width: 80px;
+}
+
+body.order table.signature,
+body.order table.act_signature,
+body.order table.signature tr,
+body.order table.act_signature tr,
+body.order table.signature th,
+body.order table.act_signature th,
+body.order table.signature td,
+body.order table.act_signature td {
+    border-width: 0;
+}
+
+body.order table.signature td.seal,
+body.order table.act_signature td.seal {
+    padding: 0;
+}
+
+body.order table.signature td.seal {
+    padding: 0;
+}
+
+body.order .underline {
+    font-size: 15px;
+    line-height: 1em;
+    display: inline-block;
+    border-bottom: 1px solid black;
+}
+
+body.order .underline_bold {
+    font-size: 17px;
+    line-height: 1em;
+    display: inline-block;
+    border-bottom: 1px solid black;
+}
+
+/* -----------------------------------------
+   Page Name 2
+----------------------------------------- */
+
